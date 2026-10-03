@@ -9,11 +9,9 @@ export default function History() {
         <div className="container">
           <span className="eyebrow light">Su historia</span>
           <h1>De Cuba a España, del Ebro al exilio</h1>
-          {/* <p>
+          <p>
             Una cronología construida a partir de la documentación disponible.
-            El objetivo es mostrar qué sabemos, de dónde procede y qué queda por
-            investigar.
-          </p> */}
+          </p>
         </div>
       </section>
       <section className="section container narrow">

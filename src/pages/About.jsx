@@ -1,5 +1,4 @@
-import { ArrowRight, CheckCircle2 } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { CheckCircle2 } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
 
 export default function About() {
@@ -10,9 +9,10 @@ export default function About() {
           <span className="eyebrow light">Sobre el proyecto</span>
           <h1>Investigar, documentar, difundir y preservar.</h1>
           <p>
-            Este sitio nace como iniciativa de un descendiente que quiere
-            reconstruir la historia de su ascendiente y poner los resultados de
-            esa investigación a disposición del público.
+            Este sitio nace como iniciativa de los familiares del brigadista los
+            cuales quieren reconstruir la historia de su ascendiente y mantener
+            viva la memoria del mismo por la lucha de la democracia y poner los
+            resultados de esa investigación a disposición del público.
           </p>
         </div>
       </section>
@@ -27,11 +27,6 @@ export default function About() {
               El proyecto busca reunir documentos familiares, fuentes
               históricas, bibliografía y nuevas investigaciones en un espacio
               público, organizado y trazable.
-            </p>
-            <p>
-              La web debe evolucionar junto con la investigación. Cada nueva
-              publicación, documento o hallazgo debe quedar identificado por
-              fecha y fuente.
             </p>
           </div>
         </div>
@@ -59,7 +54,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="section container callout-wide">
+      {/* <section className="section container callout-wide">
         <span className="eyebrow">Siguiente paso</span>
         <h2>Convertir esta plantilla en el archivo de Luis.</h2>
         <p>
@@ -70,7 +65,7 @@ export default function About() {
         <Link className="button button-dark" to="/documentos">
           Ir al archivo <ArrowRight size={17} />
         </Link>
-      </section>
+      </section> */}
     </>
   )
 }

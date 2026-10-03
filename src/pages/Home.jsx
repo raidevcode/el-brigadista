@@ -7,7 +7,7 @@ import {
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import SectionHeading from '../components/SectionHeading'
-import { documents, research, site, timeline } from '../data/siteData'
+import { site, timeline } from '../data/siteData'
 
 export default function Home() {
   return (
@@ -15,10 +15,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-image placeholder-photo">
           <div className="photo-grid" aria-hidden="true">
-            <img src="/img1.jpg" alt="" />
-            {/* <span></span>
-            <span></span>
-            <span></span> */}
+            <img src="/images/img1.jpg" alt="" />
           </div>
           <div className="hero-overlay" />
           <div className="hero-caption">
@@ -84,9 +81,9 @@ export default function Home() {
               la biografía, la documentación disponible, las fuentes consultadas
               y el proceso de investigación de los familiares del brigadista.
             </p>
-            {/* <Link className="inline-link" to="/proyecto">
+            <Link className="inline-link" to="/proyecto">
               Conocer el propósito del proyecto <ArrowRight size={16} />
-            </Link> */}
+            </Link>
           </div>
         </div>
       </section>
@@ -96,7 +93,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Cronología"
             title="Una vida marcada por la historia"
-            text="Una primera reconstrucción temporal. Cada acontecimiento debe poder relacionarse con una fuente o documento."
+            // text="Una primera reconstrucción temporal. Cada acontecimiento debe poder relacionarse con una fuente o documento."
           />
           <div className="timeline-preview">
             {timeline.slice(0, 5).map((item, index) => (

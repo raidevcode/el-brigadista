@@ -66,14 +66,14 @@ export const documents = [
     source: 'Archivo familiar',
     tag: 'Filiación'
   },
-  {
-    type: 'Memoria del exilio',
-    title: 'Documentación sobre Francia',
-    description:
-      'Material relacionado con el paso por los campos de Argelès y Gurs.',
-    source: 'Archivo familiar / fuentes históricas',
-    tag: 'Exilio'
-  },
+  // {
+  //   type: 'Memoria del exilio',
+  //   title: 'Documentación sobre Francia',
+  //   description:
+  //     'Material relacionado con el paso por los campos de Argelès y Gurs.',
+  //   source: 'Archivo familiar / fuentes históricas',
+  //   tag: 'Exilio'
+  // },
   {
     type: 'Bibliografía',
     title: 'Fuentes históricas',

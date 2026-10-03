@@ -76,7 +76,7 @@ export default function Research() {
           </div>
         </div>
       </section>
-      <section className="section container callout-wide">
+      {/* <section className="section container callout-wide">
         <span className="eyebrow">Importante</span>
         <h2>No vamos a inventar continuidad.</h2>
         <p>
@@ -85,7 +85,7 @@ export default function Research() {
           La continuidad se construye con investigación real, publicaciones
           reales y actualizaciones trazables.
         </p>
-      </section>
+      </section> */}
     </>
   )
 }

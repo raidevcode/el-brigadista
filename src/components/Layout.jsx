@@ -6,10 +6,14 @@ import { site } from '../data/siteData'
 const links = [
   ['/', 'Inicio'],
   ['/biografia', 'Biografía'],
-  ['/historia', 'Su historia'],
+  ['/historia', 'Su Historia'],
   // ['/documentos', 'Documentos'],
+  ['/proyecto', 'El Proyecto'],
+  ['/galeria', 'Galería'],
   // ['/investigacion', 'Investigación'],
-  // ['/proyecto', 'El proyecto']
+  ['/memoria', 'Memoria']
+  // ['/testimonios', 'Testimonios'],
+  // ['/contacto', 'Contacto']
 ]
 
 export default function Layout() {
@@ -52,21 +56,30 @@ export default function Layout() {
       <footer className="site-footer">
         <div>
           <strong>{site.projectName}</strong>
-          <p>
-            Proyecto personal de investigación, documentación y difusión
-            histórica.
-          </p>
+          <p>Proyecto de investigación, documentación y difusión histórica.</p>
         </div>
-        {/* <div className="footer-links">
-          <Link to="/documentos">
+        <div className="footer-links">
+          {/* <Link to="/documentos">
             Fuentes y documentos <ArrowUpRight size={14} />
-          </Link>
-          <Link to="/proyecto">
-            Sobre el proyecto <ArrowUpRight size={14} />
-          </Link>
-        </div> */}
+          </Link> */}
+          {/* <Link to="/proyecto">
+            Sobre el Proyecto <ArrowUpRight size={14} />
+          </Link> */}
+          {/* <Link to="/memoria">
+            Dedicatorias <ArrowUpRight size={14} />
+          </Link> */}
+          {/* <Link to="/testimonios">
+            Testimonios <ArrowUpRight size={14} />
+          </Link> */}
+          {/* <Link to="/contacto">
+            Contacto <ArrowUpRight size={14} />
+          </Link> */}
+        </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} · Proyecto en desarrollo</span>
+          <span>
+            © 2013 - {new Date().getFullYear()} · Hecho con mucho ❤️ por
+            RaidevDev.
+          </span>
           <span>
             Las afirmaciones históricas deben contrastarse con sus fuentes.
           </span>

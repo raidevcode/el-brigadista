@@ -18,7 +18,7 @@ export default function Documents() {
       <section className="section container">
         <SectionHeading
           eyebrow="Colección"
-          title="Documentos del proyecto"
+          title="Documentos del Proyecto"
           text="Cada documento debería incorporar procedencia, fecha, descripción y aquello que permite demostrar."
         />
         <div className="card-grid">
