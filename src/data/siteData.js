@@ -5,47 +5,47 @@ export const site = {
     'Proyecto de investigación y difusión de la memoria de un voluntario cubano de las Brigadas Internacionales.',
   dates: '1913 — 1939',
   heroKicker:
-    'Archivo familiar · Investigación histórica · Memoria democrática',
-  heroTitle: 'La memoria de un brigadista, la fuerza de una democracia.',
+    'Archivo familiar · Investigación histórica · Documentación',
+  heroTitle: 'La memoria de un brigadista, la fuerza de una democracia',
   heroText:
-    'Este proyecto reúne investigación, documentos y fuentes históricas para reconstruir y difundir la historia de Luis M. Peraza Barrios, preservando su memoria desde la perspectiva de los familiares.'
+    'Este proyecto surge con la idea de reunir investigación, documentos y fuentes históricas para reconstruir y difundir la historia de Luis M. Peraza Barrios, preservando su memoria desde la perspectiva de los familiares.'
 }
 
 export const timeline = [
   {
     year: '1913',
     title: 'Nacimiento',
-    text: '25 de agosto de 1913. La información disponible sitúa su nacimiento en Cuba.'
+    text: 'Luis M. Peraza Barrios nació en Cuba el 25 de agosto de 1913. Este es el primer dato biográfico que permite situar su historia en el tiempo y establecer el punto de partida de su trayectoria. La investigación disponible lo identifica como cubano y recoge información sobre su posterior incorporación a las Brigadas Internacionales. Reconstruir su vida desde este punto exige también investigar el contexto familiar y social del que procedía, así como buscar documentación que permita conocer mejor sus primeros años.'
   },
   {
     year: '1938',
     title: 'Llegada a España',
-    text: '5 de febrero de 1938. La documentación familiar e histórica señala su llegada a España a bordo del Oropesa.'
+    text: 'La ficha histórica consultada sitúa la llegada de Luis a España el 5 de febrero de 1938, a bordo del buque Oropesa. Tenía 24 años. Su llegada se produjo en una fase avanzada de la Guerra Civil, cuando el conflicto llevaba más de un año y medio enfrentando a las fuerzas republicanas y sublevadas. Este desplazamiento desde Cuba constituye un hito central de su biografía: marca el paso de su vida anterior a su participación documentada en la guerra española. La fecha y el nombre del barco ofrecen, además, referencias concretas para continuar buscando registros de viaje y documentación relacionada con su incorporación.'
   },
   {
     year: '1938',
     title: 'XV Brigada Internacional',
-    text: 'Se incorporó a la XV Brigada Internacional, asociada en la documentación a la Abraham Lincoln.'
+    text: 'Los registros consultados relacionan a Luis con la XV Brigada Internacional y el batallón Spanish o Latinoamericano. La XV Brigada también quedó vinculada históricamente al nombre de Abraham Lincoln, asociado a la participación de voluntarios norteamericanos. Las Brigadas Internacionales reunieron a voluntarios procedentes de numerosos países que acudieron a España para combatir en defensa de la República. La presencia de Luis dentro de esta estructura militar sitúa su historia individual en una movilización internacional que trascendió las fronteras españolas. La ficha permite establecer esa vinculación, aunque no basta por sí sola para reconstruir todas las unidades concretas en las que pudo servir a lo largo de la guerra.'
   },
   {
     year: '1938',
     title: 'Frente del Ebro',
-    text: 'La ficha histórica consultada recoge su presencia en escenarios como Calaceite, Gandesa y el Frente del Ebro.'
+    text: 'La documentación biográfica relaciona la trayectoria de Luis con Calaceite, Gandesa y el Frente del Ebro. La batalla del Ebro, desarrollada entre julio y noviembre de 1938, fue uno de los episodios militares decisivos y más prolongados de la Guerra Civil. Gandesa ocupó un lugar relevante en las operaciones de la zona, mientras que los registros de Luis también incluyen referencias a otros escenarios del frente. Estas localizaciones permiten situar su recorrido en el mapa de la guerra y estudiar las operaciones militares que tuvieron lugar en aquellos territorios. Sin embargo, conviene distinguir entre aparecer asociado a estos escenarios en una ficha y disponer de pruebas que permitan reconstruir su actuación exacta en cada combate.'
   },
   {
     year: '1938–1939',
     title: 'Hospitales',
-    text: 'La documentación histórica registra ingresos en los hospitales de Cambrils y Vic.'
+    text: 'La ficha histórica recoge ingresos de Luis en los hospitales de Cambrils y Vic, dos referencias importantes para seguir su recorrido durante la guerra. Los hospitales vinculados a las Brigadas Internacionales formaban parte de la infraestructura sanitaria que atendía a los combatientes. La aparición de estos centros en su registro abre una línea de investigación sobre su paso por la red hospitalaria y las fechas en que pudo recibir atención. Con la información actualmente identificada no debemos afirmar un diagnóstico, una lesión concreta ni la duración de sus estancias. Para avanzar en esos detalles sería necesario localizar expedientes hospitalarios u otros documentos que aporten información individualizada.'
   },
   {
     year: '1939',
     title: 'Retirada e internamiento',
-    text: 'Tras la retirada, la ficha histórica recoge su paso por los campos de Argelès y Gurs, en Francia.'
+    text: 'La documentación consultada relaciona a Luis con los campos de Argelès y Gurs, en Francia. En 1939, la caída de Cataluña y la retirada republicana provocaron la llegada de cientos de miles de personas a territorio francés. Muchos refugiados fueron internados en campos en condiciones difíciles, y los antiguos combatientes también tuvieron que afrontar la incertidumbre sobre su futuro. Las referencias a Argelès y Gurs sitúan a Luis dentro de esa historia de desplazamiento e internamiento. Para precisar cuándo estuvo en cada campo, cuánto tiempo permaneció allí y en qué circunstancias, es necesario contrastar las referencias disponibles con los documentos originales de internamiento y traslado.'
   },
   {
     year: '1939',
     title: 'Regreso a Cuba',
-    text: '24 de abril de 1939. La información histórica disponible sitúa su regreso a Cuba en esta fecha.'
+    text: 'La ficha histórica sitúa el regreso de Luis a Cuba el 24 de abril de 1939. Este dato permite cerrar la secuencia conocida de su llegada a España, su paso por la guerra y los registros de internamiento en Francia. Su regreso marca el final de esta etapa documentada de su vida, pero no el final de su historia personal. Quedan abiertas preguntas sobre cómo fue su vuelta, qué recuerdos conservó de aquellos años y cómo se transmitió su experiencia dentro de la familia. Esas cuestiones solo podrán desarrollarse con rigor a partir de testimonios, documentos familiares u otras fuentes que permitan conocer los años posteriores.'
   }
 ]
 

@@ -1,4 +1,4 @@
-import { Menu, X } from 'lucide-react'
+import { ArrowUpRight, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import { site } from '../data/siteData'
@@ -6,12 +6,12 @@ import { site } from '../data/siteData'
 const links = [
   ['/', 'Inicio'],
   ['/biografia', 'Biografía'],
-  ['/historia', 'Su Historia'],
+  // ['/historia', 'Su Historia'],
   // ['/documentos', 'Documentos'],
   ['/proyecto', 'El Proyecto'],
   ['/galeria', 'Galería'],
   // ['/investigacion', 'Investigación'],
-  ['/memoria', 'Memoria']
+  ['/memoria', 'Memoria'],
   // ['/testimonios', 'Testimonios'],
   // ['/contacto', 'Contacto']
 ]
@@ -53,27 +53,27 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="site-footer">
+      {/* <footer className="site-footer">
         <div>
           <strong>{site.projectName}</strong>
           <p>Proyecto de investigación, documentación y difusión histórica.</p>
         </div>
-        <div className="footer-links">
-          {/* <Link to="/documentos">
+        <div className="footer-links"> */}
+      {/* <Link to="/documentos">
             Fuentes y documentos <ArrowUpRight size={14} />
           </Link> */}
-          {/* <Link to="/proyecto">
+      {/* <Link to="/proyecto">
             Sobre el Proyecto <ArrowUpRight size={14} />
           </Link> */}
-          {/* <Link to="/memoria">
+      {/* <Link to="/memoria">
             Dedicatorias <ArrowUpRight size={14} />
           </Link> */}
-          {/* <Link to="/testimonios">
+      {/* <Link to="/testimonios">
             Testimonios <ArrowUpRight size={14} />
           </Link> */}
-          {/* <Link to="/contacto">
+      {/* <Link to="/contacto">
             Contacto <ArrowUpRight size={14} />
-          </Link> */}
+          </Link>
         </div>
         <div className="footer-bottom">
           <span>
@@ -84,7 +84,7 @@ export default function Layout() {
             Las afirmaciones históricas deben contrastarse con sus fuentes.
           </span>
         </div>
-      </footer>
+      </footer> */}
     </div>
   )
 }

@@ -68,28 +68,28 @@ export default function Contact() {
             <span className="eyebrow">Un archivo abierto</span>
             <h2>
               La memoria también se construye entre familias, investigadores y
-              testigos.
+              testigos
             </h2>
             <p>
               Si dispones de información que pueda ayudar a reconstruir la
-              trayectoria del brigadista, este es el lugar para compartirla.
+              trayectoria del brigadista, este es el lugar perfecto para
+              compartirla.
             </p>
-            <div className="contact-note">
-              <Mail size={20} />
+            <div className="bio-facts">
               <div>
-                <strong>Contacto familiar</strong>
+                <Mail size={20} />
                 <span>
-                  El mensaje llegará al correo configurado por la familia.
+                  <strong>Contacto familiar</strong> El mensaje llegará al
+                  correo configurado por la familia.
                 </span>
               </div>
             </div>
-            <div className="contact-note">
-              <ShieldCheck size={20} />
+            <div className="bio-facts">
               <div>
-                <strong>Uso responsable</strong>
+                <ShieldCheck size={20} />
                 <span>
-                  La información recibida se revisará antes de incorporarla al
-                  archivo público.
+                  <strong>Uso responsable</strong> La información recibida se
+                  revisará antes de incorporarla al archivo público.
                 </span>
               </div>
             </div>

@@ -15,7 +15,27 @@ export default function History() {
         </div>
       </section>
       <section className="section container narrow">
-        <SectionHeading eyebrow="Línea temporal" title="Los acontecimientos" />
+        <SectionHeading eyebrow="Línea temporal" title="Los acontecimientos." />
+        <p>
+          La trayectoria de Luis M. Peraza Barrios puede reconstruirse a través
+          de una serie de fechas, lugares y registros que conectan Cuba, los
+          frentes de la Guerra Civil española y los campos de internamiento de
+          Francia.
+        </p>
+        <p>
+          Esta línea temporal reúne los principales hitos que aparecen en la
+          documentación histórica consultada. Cada acontecimiento permite
+          acercarnos a su recorrido individual y, al mismo tiempo, comprender el
+          contexto de una generación marcada por la guerra, la retirada y el
+          desplazamiento forzoso.
+        </p>
+        <p>
+          Las fechas y los lugares aquí recogidos constituyen una base
+          documental para la investigación. Cuando las fuentes no permiten
+          precisar las circunstancias personales de un acontecimiento, esa
+          limitación se señala en lugar de completar el relato mediante
+          suposiciones.
+        </p>
         <Timeline items={timeline} />
       </section>
       {/* <section className="section section-paper">

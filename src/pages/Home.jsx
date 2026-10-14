@@ -27,8 +27,15 @@ export default function Home() {
           <h1>{site.heroTitle}</h1>
           <p className="hero-lead">{site.heroText}</p>
           <div className="hero-actions">
-            <Link className="button button-light" to="/historia">
-              Conocer su historia <ArrowRight size={17} />
+            {/* <Link className="button button-light" to="/historia">
+              Conocer su Historia <ArrowRight size={17} />
+            </Link> */}
+            <Link className="button button-light" to="/biografia">
+              Conocer su biografía <ArrowRight size={17} />
+            </Link>
+            <Link className="button button-light" to="/proyecto">
+              Conocer sobre el proyecto
+              <ArrowRight size={17} />
             </Link>
             {/* <Link className="button button-ghost-light" to="/investigacion">
               Ver la investigación
@@ -47,11 +54,11 @@ export default function Home() {
           [
             FileSearch,
             'Investigar',
-            'Reconstruir una historia a partir de fuentes.'
+            'Reconstruir una historia a partir de fuentes'
           ],
-          [ScrollText, 'Documentar', 'Conservar y organizar las evidencias.'],
-          [BookOpen, 'Difundir', 'Compartir el conocimiento públicamente.'],
-          [Landmark, 'Preservar', 'Mantener viva la memoria democrática.']
+          [ScrollText, 'Documentar', 'Conservar y organizar las evidencias'],
+          [BookOpen, 'Difundir', 'Compartir el conocimiento públicamente'],
+          [Landmark, 'Preservar', 'Mantener viva la memoria democrática']
         ].map(([Icon, title, text]) => (
           <div className="principle" key={title}>
             <Icon size={22} />
@@ -73,16 +80,35 @@ export default function Home() {
         <div className="split-intro">
           <div>
             <span className="eyebrow">El proyecto</span>
-            <h2>Una historia familiar convertida en investigación pública.</h2>
+            <h2>Una historia familiar convertida en investigación pública</h2>
           </div>
           <div>
             <p>
-              Este sitio está concebido como un archivo digital abierto: reúne
-              la biografía, la documentación disponible, las fuentes consultadas
-              y el proceso de investigación de los familiares del brigadista.
+              La historia de una familia también puede ser una puerta de entrada
+              a la memoria colectiva. Este proyecto nace del deseo de recuperar,
+              documentar y difundir la trayectoria de{' '}
+              <strong>Luis M. Peraza Barrios</strong>, un voluntario cubano que
+              llegó a España en febrero de 1938 para incorporarse a las Brigadas
+              Internacionales durante la Guerra Civil española.
             </p>
-            <Link className="inline-link" to="/proyecto">
-              Conocer el propósito del proyecto <ArrowRight size={16} />
+            <p>
+              A partir de los registros históricos disponibles, la documentación
+              conservada y la investigación de fuentes bibliográficas y
+              archivísticas, queremos reconstruir su recorrido y situarlo en el
+              contexto de los acontecimientos que marcaron su vida: la guerra,
+              la retirada republicana, el internamiento en Francia y su regreso
+              a Cuba en 1939.
+            </p>
+            <p>
+              <strong>Memoria y Democracia Luis M. Peraza Barrios</strong> es un
+              espacio de investigación y memoria dedicado a preservar su
+              historia, compartir las fuentes que permiten conocerla y acercarla
+              a las nuevas generaciones. Porque recordar no consiste únicamente
+              en conservar un nombre, sino también en investigar su trayectoria,
+              comprender su tiempo y transmitir su memoria con rigor.
+            </p>
+            <Link className="button button-dark" to="/proyecto">
+              Conocer sobre el propósito del proyecto <ArrowRight size={16} />
             </Link>
           </div>
         </div>
@@ -93,17 +119,17 @@ export default function Home() {
           <SectionHeading
             eyebrow="Cronología"
             title="Una vida marcada por la historia"
-            // text="Una primera reconstrucción temporal. Cada acontecimiento debe poder relacionarse con una fuente o documento."
+            text="La cronología de Luis M. Peraza Barrios recorre los principales acontecimientos de su vida, desde su nacimiento en Cuba en 1913 hasta su regreso a la isla en 1939. A través de fechas, lugares y registros históricos, conoceremos su llegada a España, su vinculación con la XV Brigada Internacional, su paso por el frente del Ebro, su estancia en hospitales y su posterior internamiento en Francia. Cada etapa permite reconstruir una parte de su trayectoria y situarla en el contexto de la Guerra Civil española y sus consecuencias. Esta línea temporal reúne la información documentada hasta el momento y ofrece un recorrido por los acontecimientos que marcaron su experiencia, contribuyendo a preservar su historia y mantener viva la memoria de quienes formaron parte de las Brigadas Internacionales."
           />
           <div className="timeline-preview">
-            {timeline.slice(0, 5).map((item, index) => (
+            {timeline.map((item, index) => (
               <div className="mini-event" key={index}>
                 <span>{item.year}</span>
                 <strong>{item.title}</strong>
               </div>
             ))}
           </div>
-          <Link className="button button-dark" to="/historia">
+          <Link className="button button-dark" to="/biografia">
             Ver cronología completa <ArrowRight size={17} />
           </Link>
         </div>
