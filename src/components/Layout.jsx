@@ -13,7 +13,7 @@ const links = [
   // ['/investigacion', 'Investigación'],
   ['/memoria', 'Memoria'],
   // ['/testimonios', 'Testimonios'],
-  // ['/contacto', 'Contacto']
+  ['/contacto', 'Contacto']
 ]
 
 export default function Layout() {
@@ -53,38 +53,50 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      {/* <footer className="site-footer">
+      <footer className="site-footer">
         <div>
           <strong>{site.projectName}</strong>
           <p>Proyecto de investigación, documentación y difusión histórica.</p>
         </div>
-        <div className="footer-links"> */}
-      {/* <Link to="/documentos">
+        <div className="footer-links">
+          {/* <Link to="/documentos">
             Fuentes y documentos <ArrowUpRight size={14} />
           </Link> */}
-      {/* <Link to="/proyecto">
+          {/* <Link to="/proyecto">
             Sobre el Proyecto <ArrowUpRight size={14} />
           </Link> */}
-      {/* <Link to="/memoria">
+          {/* <Link to="/memoria">
             Dedicatorias <ArrowUpRight size={14} />
           </Link> */}
-      {/* <Link to="/testimonios">
+          {/* <Link to="/testimonios">
             Testimonios <ArrowUpRight size={14} />
           </Link> */}
-      {/* <Link to="/contacto">
+          <Link to="/biografia">
+            Biografía <ArrowUpRight size={14} />
+          </Link>
+          <Link to="/proyecto">
+            Proyecto <ArrowUpRight size={14} />
+          </Link>
+          <Link to="/galeria">
+            Galería <ArrowUpRight size={14} />
+          </Link>
+          <Link to="/memoria">
+            Memoria <ArrowUpRight size={14} />
+          </Link>
+          <Link to="/contacto">
             Contacto <ArrowUpRight size={14} />
           </Link>
         </div>
         <div className="footer-bottom">
           <span>
-            © 2013 - {new Date().getFullYear()} · Hecho con mucho ❤️ por
-            RaidevDev.
+            © 2018 - {new Date().getFullYear()} · Memoria y Democracia · Luis M.
+            Peraza Barrios · Hecho con mucho ❤️ por RaidevDev
           </span>
-          <span>
+          {/* <span>
             Las afirmaciones históricas deben contrastarse con sus fuentes.
-          </span>
+          </span> */}
         </div>
-      </footer> */}
+      </footer>
     </div>
   )
 }

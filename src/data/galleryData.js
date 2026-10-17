@@ -21,6 +21,11 @@ export const gallerySections = [
         id: 'war-03',
         type: 'Fotografía histórica',
         image: '/images/gallery/guerra/img42.jpg'
+      },
+      {
+        id: 'war-04',
+        type: 'Fotografía histórica',
+        image: '/images/gallery/guerra/img58.jpeg'
       }
     ]
   },
@@ -187,6 +192,11 @@ export const gallerySections = [
         image: '/images/gallery/documentos/img2.jpg'
       },
       {
+        id: 'doc-07',
+        type: 'Documento',
+        image: '/images/gallery/documentos/img22.jpg'
+      },
+      {
         id: 'doc-02',
         type: 'Documento',
         image: '/images/gallery/documentos/img3.jpg'
@@ -210,11 +220,6 @@ export const gallerySections = [
         id: 'doc-06',
         type: 'Documento',
         image: '/images/gallery/documentos/img20.png'
-      },
-      {
-        id: 'doc-07',
-        type: 'Documento',
-        image: '/images/gallery/documentos/img22.jpg'
       }
     ]
   },
@@ -230,6 +235,11 @@ export const gallerySections = [
         id: 'other-04',
         type: 'Material histórico',
         image: '/images/gallery/img13.jpg'
+      },
+      {
+        id: 'other-21',
+        type: 'Material histórico',
+        image: '/images/gallery/img55.jpeg'
       },
       {
         id: 'other-06',
@@ -280,6 +290,51 @@ export const gallerySections = [
         id: 'other-13',
         type: 'Material histórico',
         image: '/images/gallery/img48.png'
+      },
+      {
+        id: 'other-14',
+        type: 'Material histórico',
+        image: '/images/gallery/img46.jpg'
+      },
+      {
+        id: 'other-15',
+        type: 'Material histórico',
+        image: '/images/gallery/img49.png'
+      },
+      {
+        id: 'other-16',
+        type: 'Material histórico',
+        image: '/images/gallery/img50.png'
+      },
+      {
+        id: 'other-17',
+        type: 'Material histórico',
+        image: '/images/gallery/img51.png'
+      },
+      {
+        id: 'other-18',
+        type: 'Material histórico',
+        image: '/images/gallery/img52.png'
+      },
+      {
+        id: 'other-19',
+        type: 'Material histórico',
+        image: '/images/gallery/img53.png'
+      },
+      {
+        id: 'other-20',
+        type: 'Material histórico',
+        image: '/images/gallery/img54.jpeg'
+      },
+      {
+        id: 'other-22',
+        type: 'Material histórico',
+        image: '/images/gallery/img56.jpeg'
+      },
+      {
+        id: 'other-23',
+        type: 'Material histórico',
+        image: '/images/gallery/img57.jpeg'
       }
     ]
   }

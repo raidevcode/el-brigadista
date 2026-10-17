@@ -49,12 +49,12 @@ export const songs = [
     title: 'Canción para Luis',
     description: 'Canción dedicada a la memoria de Luis M. Peraza Barrios.',
     videoPath: '/videos/cancion-luis.mp4',
-    posterPath: '/images/cancion-luis.svg'
+    posterPath: '/images/portada-luis.png'
+  },
+  {
+    title: 'Canción a las Brigadas Internacionales',
+    description: 'Canción dedicada a los brigadistas internacionales.',
+    videoPath: '/videos/cancion-brigadas.mp4',
+    posterPath: '/images/portada-brigadas.png'
   }
-  // {
-  //   title: 'Canción a las Brigadas Internacionales',
-  //   description: 'Canción dedicada a los brigadistas internacionales.',
-  //   videoPath: '/videos/cancion-brigadas.mp4',
-  //   posterPath: '/images/cancion-luis.svg'
-  // }
 ]

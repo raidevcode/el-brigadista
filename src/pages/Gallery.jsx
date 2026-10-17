@@ -90,7 +90,7 @@ export default function Gallery() {
           <div className="gallery-index-intro">
             <div>
               <span className="eyebrow">Archivo visual</span>
-              <h2>Una historia contada también a través de sus imágenes.</h2>
+              <h2>Una historia contada también a través de sus imágenes</h2>
             </div>
             <p>
               Las fotografías y documentos se organizan por tipo para facilitar

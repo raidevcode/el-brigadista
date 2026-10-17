@@ -1,4 +1,3 @@
-import { CheckCircle2 } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
 
 export default function About() {
@@ -64,8 +63,6 @@ export default function About() {
             conocer esta historia.
           </p>
         </div>
-      </section>
-      <section className="section section-paper">
         <div className="container">
           <SectionHeading
             eyebrow="¿Por qué nace este proyecto?"
@@ -104,8 +101,6 @@ export default function About() {
             que nos permiten conocerlo.
           </p>
         </div>
-      </section>
-      <section className="section section-paper">
         <div className="container">
           <SectionHeading
             eyebrow="Objetivos"
@@ -164,8 +159,6 @@ export default function About() {
             puede evolucionar con nuevas evidencias.
           </p>
         </div>
-      </section>
-      <section className="section section-paper">
         <div className="container">
           <SectionHeading
             eyebrow="Un método basado en las fuentes"
@@ -228,8 +221,6 @@ export default function About() {
             actualmente disponible.
           </p>
         </div>
-      </section>
-      <section className="section section-paper">
         <div className="container">
           <SectionHeading
             eyebrow="Recordar para comprender"
@@ -272,8 +263,6 @@ export default function About() {
             contrastables, contexto y una transmisión responsable.
           </p>
         </div>
-      </section>
-      <section className="section section-paper">
         <div className="container">
           <SectionHeading
             eyebrow="Una investigación que continúa"
@@ -307,7 +296,7 @@ export default function About() {
             biografía. Requiere seguir investigando, cuidar los documentos,
             escuchar los testimonios y compartir el conocimiento adquirido.
           </p>
-          <p>
+          <p style={{ paddingBottom: '0px' }}>
             Ese es el compromiso que inspira este archivo: mantener abierta la
             investigación, hacer visible la historia de Luis y contribuir a que
             su trayectoria pueda ser conocida y estudiada por las generaciones
@@ -315,29 +304,29 @@ export default function About() {
           </p>
         </div>
       </section>
-      {/* <section className="section section-paper">
-        <div className="container">
-          <SectionHeading
-            eyebrow="Principios editoriales"
-            title="Cómo se construye el archivo"
-          />
-          <div className="principles-grid">
-            {[
-              'Distinguir hechos documentados de testimonios familiares.',
-              'Citar las fuentes utilizadas para cada afirmación histórica.',
-              'Indicar cuándo una investigación está en desarrollo.',
-              'No alterar ni presentar como originales las reproducciones documentales.',
-              'Actualizar el archivo cuando aparezcan nuevos documentos.',
-              'Mantener una perspectiva histórica y no partidista.'
-            ].map(item => (
-              <div className="principle-row" key={item}>
-                <CheckCircle2 size={20} />
-                <span>{item}</span>
-              </div>
-            ))}
-          </div>
+
+      {/* <div className="container">
+        <SectionHeading
+          eyebrow="Principios editoriales"
+          title="Cómo se construye el archivo"
+        />
+        <div className="principles-grid">
+          {[
+            'Distinguir hechos documentados de testimonios familiares.',
+            'Citar las fuentes utilizadas para cada afirmación histórica.',
+            'Indicar cuándo una investigación está en desarrollo.',
+            'No alterar ni presentar como originales las reproducciones documentales.',
+            'Actualizar el archivo cuando aparezcan nuevos documentos.',
+            'Mantener una perspectiva histórica y no partidista.'
+          ].map(item => (
+            <div className="principle-row" key={item}>
+              <CheckCircle2 size={20} />
+              <span>{item}</span>
+            </div>
+          ))}
         </div>
-      </section> */}
+      </div> */}
+
       {/* <section className="section container callout-wide">
         <span className="eyebrow">Siguiente paso</span>
         <h2>Convertir esta plantilla en el archivo de Luis.</h2>
